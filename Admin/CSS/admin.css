@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+#header{
+    position: fixed;
+    width: 20%;
+    height: 737px;
+    background-color:rgb(182, 138, 122);
+    border-right: 2px solid black ;
+}
+
+
+#header ul{
+    /* border: 1px solid white; */
+    margin-top: 280px;
+    height: 400px;
+}
+
+#header ul a{
+    text-decoration: none;
+}
+
+#header ul a li{
+    /* border: 1px solid black; */
+    color: rgb(68, 64, 64);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 35px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#header ul a li:hover{
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white ;
+    color: white;
+    background-color: black;
+}
+
+#header ul a #add{
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white ;
+    color: white;
+    background-color: black;
+}
+
+#header img{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    margin: 20px 50px;
+}
+
+
+
+table{
+    margin-top: 190px;
+    position: absolute;
+    padding: 50px;
+    height: 300px;
+    margin-left: 350px;
+    border: 3px solid black;
+    background-color: rgb(175, 238, 175);
+}
+
+table #title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+table button{
+    background-color: blueviolet;
+    margin-left: 74px;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    color:  white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+table input{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgba(48, 42, 42, 1);
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+table input::placeholder{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    top: 30%;
+    margin-left: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}

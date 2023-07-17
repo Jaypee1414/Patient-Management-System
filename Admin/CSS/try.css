@@ -1,0 +1,249 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+#header{
+    position: fixed;
+    width: 20%;
+    height: 737px;
+    background-color:rgb(182, 138, 122);
+    border-right: 2px solid black ;
+}
+
+
+#header ul{
+    /* border: 1px solid white; */
+    margin-top: 280px;
+    height: 400px;
+}
+
+#header ul a{
+    text-decoration: none;
+}
+
+#header ul a li{
+    /* border: 1px solid black; */
+    color: rgb(68, 64, 64);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 35px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#header ul a li:hover{
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white ;
+    color: white;
+    background-color: black;
+}
+
+#header ul a #add{
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white ;
+    color: white;
+    background-color: black;
+}
+
+#header img{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    margin: 20px 50px;
+}
+
+
+table{
+    margin-top: 50px;
+    position: absolute;
+    padding: 50px;
+    height: 300px;
+    margin-left: 508px;
+    border: 3px solid black;
+    background-color: rgb(175, 238, 175);
+}
+
+
+table .head{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+
+table #title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+
+table #search #btn{
+    background-color: blueviolet;
+    width: 100px;
+    height: 48px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 8px;
+    color:  white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+table #search #btn:hover{
+    background-color: rgb(152, 83, 216);
+    color: black;
+}
+
+button{
+    background-color: blueviolet;
+    margin-left: 74px;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    color:  white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+table button:hover{
+    background-color: rgb(152, 83, 216);
+    color: black;
+}
+
+table input{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    /* background-color: rgba(48, 42, 42, 1); */
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+table input::placeholder{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    top: 30%;
+    margin-left: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+table td{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table #info:hover{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+table td img{
+    height: 50px;
+}
+#head td{
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#value{
+    z-index: 10;
+}
+
+/*
+ SECOND CSS
+*/
+
+
+.container{
+    text-align: center;
+    padding-left: 190px;
+    right: 0;
+    position: absolute;
+    width: 77%;    
+    border: 1px solid black;
+}
+
+#table{
+    width: 100%;
+    position: absolute;
+    left: -208px;
+    top: -50px;
+}
+
+/*
+
+added.php
+
+*/
+
+
+#main_added{
+    box-shadow: 2px 2px 2px 2px black;
+    width: 80%;
+    position: absolute;
+    left:-350px;
+}
+
+#main_added input{
+    background-color: rgba(48, 42, 42, 1);
+}
+
+#main_added td{
+    padding: 8px 10px;
+}
+
+#search{
+    position: absolute;
+    z-index: 3;
+    margin-left: 350px;
+    margin-top: 220px;
+    /* border: 1px solid black; */
+}
+#search #btn{
+    background-color: blueviolet;
+    width: 90px;
+    height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    color:  white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#search #btn:hover{
+    background-color: rgb(152, 83, 216);
+    color: black;
+}
+
+#search #srch{
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    /* background-color: rgba(48, 42, 42, 1); */
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}

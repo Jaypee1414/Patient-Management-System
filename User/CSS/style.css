@@ -1,0 +1,133 @@
+:root{
+    --primary-color: rgb(184, 45, 68); 
+    --main-color:yellowgreen; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* DEFAULT */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Nunito;
+    background: black;
+    color: white;
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4{
+    line-height: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+/* HEADER */
+.main-header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../IMG/wallpaper.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);   
+    z-index: 1; 
+}
+
+/*HEADER SECTION*/
+
+.header-top {
+    position: relative;
+    height: 150px;
+    z-index: 2;
+}
+
+.header-top .logo{
+    cursor: pointer;
+    width: 15rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.header-top a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8rem;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    border: 1px solid #cecece;
+    padding: .6rem;
+    border-radius: 40rem;
+    box-shadow: 0px 1px 0 black;
+}
+
+.header-top a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.header-content{
+    position: relative;
+    margin: auto;
+   flex-direction: column;
+    text-align: center;
+    margin-top: 9.8rem;
+    z-index: 2;
+} 
+
+.header-content h1{
+    font-weight: 400rem;
+    font-size: 5.2rem;
+    line-height: 1.3rem;
+    margin: 0 0 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.header-content p{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin: 1rem 2rem;
+}
+
+.header-content a {
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+}

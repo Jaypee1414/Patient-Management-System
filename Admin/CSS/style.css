@@ -1,0 +1,146 @@
+
+#image img{
+    position: relative;
+    height: 900px;
+    width: 100%;
+    z-index: 0;
+}
+
+#image::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+#signin{
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    width: 440px;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    background-color: rgb(175, 238, 175);
+    border-radius: 5px;
+    z-index: 1;
+    border: 3px solid black;
+}
+
+#signin img{
+    position: absolute;
+    border-radius: 50%;
+    height: 480px;
+    top: -100px;
+    left: -140%;
+    border: 1px solid black;
+}
+
+#signin #text{
+    position: relative;
+    color: white;
+    width: 100%;
+}
+
+#signin #text h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight:800;
+    color: black;
+}
+
+#signin #fillup{
+    /* border: 1px solid white; */
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#signin #fillup input{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgba(48, 42, 42, 1);
+    border: 1px solid white;
+    color: white;
+}
+
+#signin #fillup ::placeholder{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    top: 30%;
+    margin-left: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#signin #btn{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: -90px;
+    margin-top: 295px;
+}
+
+#signin #btn button{
+    background-color: blueviolet;
+    margin-left: 74px;
+    width: 300px;
+    height: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#signin #btn #login{
+    color:  white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#signin #help{
+    position: relative;
+    margin-top: 120px;
+    width: 70%;
+    margin-left: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+
+
+
+#signin #btn h6{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    /* color: rgba(48, 42, 42, 5); */
+    color: gray;
+    position: absolute;
+    left: 70px;
+    margin-top: 10px;
+}   
+
+#signin #btn h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#signin #help p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    /* color: rgba(48, 42, 42, 5); */
+    color: rgb(119, 107, 107);
+}
+
+
